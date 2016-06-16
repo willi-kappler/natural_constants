@@ -17,3 +17,5 @@ pub mod physics;
 pub mod chemistry;
 pub mod biology;
 pub mod engineering;
+pub mod conversion;
+pub mod units;
