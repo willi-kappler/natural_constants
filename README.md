@@ -5,13 +5,15 @@
 
 Pre-defined constants from all disciplines (math, physics, ...) as a Rust library.
 
-Currently the following modules exist:
+## Currently the following modules exist:
 
 - math
 - physics
 - chemistry
 - biology
 - engineering
+- conversion
+- units
 
 It's far from complete. So if your favorite constant is missing, just let me know.
 
@@ -31,3 +33,30 @@ let c = speed_of_light_vac;
 // Use c in your code:
 let E = m0 * c * c;
 ```
+
+## Examples:
+
+
+## Other usefull numeric / scientific crates:
+
+- [rand](https://github.com/rust-lang-nursery/rand)
+- [num](https://github.com/rust-num/num)
+- [vecmath](https://github.com/pistondevelopers/vecmath)
+- [cgmath-rs](https://github.com/bjz/cgmath)
+- [matrixmultiply](https://github.com/bluss/matrixmultiply/)
+- [nalgebra](https://github.com/sebcrozet/nalgebra)
+- [scirust](https://github.com/indigits/scirust)
+- [beagle-rs](https://github.com/Popog/beagle-rs)
+- [ndarray](https://github.com/bluss/rust-ndarray)
+- [statrs](https://github.com/boxtown/statrs)
+- [astro-rust](https://github.com/saurvs/astro-rust)
+- [rust-bio](https://github.com/rust-bio/rust-bio)
+- [lapack](https://github.com/stainless-steel/lapack)
+- [rust-blas](https://github.com/mikkyang/rust-blas)
+- [rust-gmp](https://github.com/thestinger/rust-gmp)
+- [rust-gsl](https://github.com/GuillaumeGomez/rust-GSL)
+- [georust](https://github.com/georust)
+- [imageproc](https://github.com/chyh1990/imageproc)
+
+### More here:
+- [awsome-rust](https://github.com/kud1ing/awesome-rust)
