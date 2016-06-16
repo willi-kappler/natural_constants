@@ -17,10 +17,12 @@ It's far from complete. So if your favorite constant is missing, just let me kno
 
 What should go in ? Everything that you think is useful. Some constants may fit into multiple modules - we then have to decide which one.
 
-Why are you using long names for the constants ? Why not a simple character like 'c' ?
+- Why are you using long names for the constants ? Why not a simple character like 'c' ?
+
 Well simple characters are often used ("overloaded") by various constants, so to avoid ambiguity the full name is used.
 
-But isn't that too complicated to type ? Now my code looks too ugly!
+- But isn't that too complicated to type ? Now my code looks too ugly!
+
 Well no one stops you from doing s.th. like this:
 
 ```rust
