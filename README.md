@@ -28,19 +28,51 @@ Well simple characters are often used ("overloaded") by various constants, so to
 Well no one stops you from doing s.th. like this:
 
 ```rust
-let c = speed_of_light_vac;
+extern crate natural_constants;
+use natural_constants::physics::*;
 
-// Use c in your code:
-let E = m0 * c * c;
+fn main() {
+    let c = speed_of_light_vac;
+
+    // Use c in your code:
+    let E = m0 * c * c;
+}
 ```
 
 ## Examples:
 
+```rust
+extern crate natural_constants;
+use natural_constants::units::*;
+
+fn main() {
+    let length = Meter(20.72);
+    let time = Second(12.39);
+
+    // Resulting type: MeterPerSecond
+    let velocity = length / time;
+
+    // This will not compile:
+    // let error = length + time;
+
+    // Multiply by Second gives you Meter:
+    let duration = Second(35.0);
+    let distance = velocity * duration;
+}
+```
+
+
+
+## TODO:
+
+- [ ] Maybe split up into two crates: constants and units ?
+- [ ] Use other unit crate instrad of self written?
 
 ## Other usefull numeric / scientific crates:
 
 - [rand](https://github.com/rust-lang-nursery/rand)
 - [num](https://github.com/rust-num/num)
+- [fast_inv_sqrt](https://github.com/emkw/rust-fast_inv_sqrt)
 - [vecmath](https://github.com/pistondevelopers/vecmath)
 - [cgmath-rs](https://github.com/bjz/cgmath)
 - [matrixmultiply](https://github.com/bluss/matrixmultiply/)
@@ -57,6 +89,7 @@ let E = m0 * c * c;
 - [rust-gsl](https://github.com/GuillaumeGomez/rust-GSL)
 - [georust](https://github.com/georust)
 - [imageproc](https://github.com/chyh1990/imageproc)
+- [units](https://github.com/Boddlnagg/units)
 
 ### More here:
 - [awsome-rust](https://github.com/kud1ing/awesome-rust)

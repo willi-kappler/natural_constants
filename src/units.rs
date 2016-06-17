@@ -10,8 +10,18 @@ use std::ops::Add;
 use std::ops::Sub;
 use std::ops::Mul;
 use std::ops::Div;
+use std::cmp::PartialEq;
 
-pub struct Meter(f64);
+#[derive(Debug)]
+pub struct Meter(pub f64);
+
+impl PartialEq for Meter {
+    fn eq(self: &Meter, &Meter(rhs): &Meter) -> bool {
+        let Meter(lhs) = *self;
+        lhs == rhs
+    }
+}
+
 impl Add for Meter {
     type Output = Meter;
 
@@ -67,9 +77,20 @@ impl Div<Second> for Meter {
 }
 
 
-pub struct Meter2(f64);
+#[derive(Debug)]
+pub struct Meter2(pub f64);
 
-pub struct Second(f64);
+impl PartialEq for Meter2 {
+    fn eq(self: &Meter2, &Meter2(rhs): &Meter2) -> bool {
+        let Meter2(lhs) = *self;
+        lhs == rhs
+    }
+}
+
+
+#[derive(Debug)]
+pub struct Second(pub f64);
+
 impl Add for Second {
     type Output = Second;
 
@@ -115,9 +136,19 @@ impl Div<Second> for Second {
     }
 }
 
-pub struct Second2(f64);
+#[derive(Debug)]
+pub struct Second2(pub f64);
 
-pub struct MeterPerSecond(f64);
+#[derive(Debug)]
+pub struct MeterPerSecond(pub f64);
+
+impl PartialEq for MeterPerSecond {
+    fn eq(self: &MeterPerSecond, &MeterPerSecond(rhs): &MeterPerSecond) -> bool {
+        let MeterPerSecond(lhs) = *self;
+        lhs == rhs
+    }
+}
+
 impl Add for MeterPerSecond {
     type Output = MeterPerSecond;
 
