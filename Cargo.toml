@@ -7,7 +7,7 @@ description = "Pre-defined constants from all disciplines (math, physics, ...)"
 readme = "README.md"
 repository = "https://github.com/willi-kappler/natural_constants"
 keywords = ["constants", "physics", "math", "science"]
-# documentation = "https://willi-kappler.github.io/natural_constants"
+documentation = ""
 
 [dependencies]
 # clippy = "*"

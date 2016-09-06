@@ -13,7 +13,6 @@ Pre-defined constants from all disciplines (math, physics, ...) as a Rust librar
 - biology
 - engineering
 - conversion
-- units
 
 It's far from complete. So if your favorite constant is missing, just let me know.
 
@@ -38,35 +37,6 @@ fn main() {
     let E = m0 * c * c;
 }
 ```
-
-## Examples:
-
-```rust
-extern crate natural_constants;
-use natural_constants::units::*;
-
-fn main() {
-    let length = Meter(20.72);
-    let time = Second(12.39);
-
-    // Resulting type: MeterPerSecond
-    let velocity = length / time;
-
-    // This will not compile:
-    // let error = length + time;
-
-    // Multiply by Second gives you Meter:
-    let duration = Second(35.0);
-    let distance = velocity * duration;
-}
-```
-
-
-
-## TODO:
-
-- [ ] Maybe split up into two crates: constants and units ?
-- [ ] Use other unit crate instrad of self written?
 
 ## Other usefull numeric / scientific crates:
 
