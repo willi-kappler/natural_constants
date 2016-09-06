@@ -60,6 +60,7 @@ fn main() {
 - [georust](https://github.com/georust)
 - [imageproc](https://github.com/chyh1990/imageproc)
 - [units](https://github.com/Boddlnagg/units)
+- [simple_units](https://github.com/willi-kappler/simple_units)
 
 ### More here:
 - [awsome-rust](https://github.com/kud1ing/awesome-rust)
