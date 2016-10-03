@@ -2,5 +2,31 @@ extern crate natural_constants;
 
 #[test]
 fn test_math() {
-    println!("{}", natural_constants::math::golen_ratio)
+    use natural_constants::math::*;
+    
+    println!("{}", golden_ratio)
+}
+
+#[test]
+fn test_conversion() {
+    use natural_constants::conversion::*;
+    
+    let mass_in_g = 50_000.0; // 50 kg
+    assert_eq!(to_kilo(mass_in_g), 50.0);
+    assert_eq!(from_kilo(50.0), mass_in_g);
+
+    let energy_in_j = 125_000_000.0; // 125 MJoule
+    assert_eq!(to_mega(energy_in_j), 125.0);
+    assert_eq!(from_mega(125.0), energy_in_j);
+
+    let file_size_in_bytes1 = 73_000_000_000.0; // 74 gigabytes (not gibibytes)
+    assert_eq!(to_giga(file_size_in_bytes1), 73.0);
+    assert_eq!(from_giga(73.0), file_size_in_bytes);
+
+    let file_size_in_bytes2 = 312_000_000_000_000.0; // 312 terabytes (not tebibytes)
+    assert_eq!(to_terra(file_size_in_bytes2), 312.0);
+    assert_eq!(from_terra(312.0), file_size_in_bytes2);
+
+    assert_eq!(kilo_to_mega(), );
+    assert_eq!(mega_to_kilo(), )
 }
