@@ -3,14 +3,14 @@ extern crate natural_constants;
 #[test]
 fn test_math() {
     use natural_constants::math::*;
-    
+
     println!("{}", golden_ratio)
 }
 
 #[test]
 fn test_conversion() {
     use natural_constants::conversion::*;
-    
+
     let mass_in_g = 50_000.0; // 50 kg
     assert_eq!(to_kilo(mass_in_g), 50.0);
     assert_eq!(from_kilo(50.0), mass_in_g);
@@ -21,12 +21,13 @@ fn test_conversion() {
 
     let file_size_in_bytes1 = 73_000_000_000.0; // 74 gigabytes (not gibibytes)
     assert_eq!(to_giga(file_size_in_bytes1), 73.0);
-    assert_eq!(from_giga(73.0), file_size_in_bytes);
+    assert_eq!(from_giga(73.0), file_size_in_bytes1);
 
     let file_size_in_bytes2 = 312_000_000_000_000.0; // 312 terabytes (not tebibytes)
     assert_eq!(to_terra(file_size_in_bytes2), 312.0);
     assert_eq!(from_terra(312.0), file_size_in_bytes2);
 
-    assert_eq!(kilo_to_mega(), );
-    assert_eq!(mega_to_kilo(), )
+    let force_in_kn = 780.23; // kilo newton
+    assert_eq!(kilo_to_mega(force_in_kn), 0.78023);
+    assert_eq!(mega_to_kilo(0.78023), force_in_kn);
 }
