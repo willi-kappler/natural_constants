@@ -1,13 +1,13 @@
 [package]
 name = "natural_constants"
-version = "0.1.0"
-authors = ["Willi Kappler, grandor@gmx.de"]
+version = "0.0.1"
+authors = ["Willi Kappler, <grandor@gmx.de>"]
 license = "MIT"
 description = "Pre-defined constants from all disciplines (math, physics, ...)"
 readme = "README.md"
 repository = "https://github.com/willi-kappler/natural_constants"
 keywords = ["constants", "physics", "math", "science"]
-documentation = "https://docs.rs/natural-constants/0.1.0/natural_constants/"
+documentation = "https://docs.rs/natural-constants/0.0.1/natural_constants/"
 
 [dependencies]
 # clippy = "*"
