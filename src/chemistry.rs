@@ -422,7 +422,7 @@ pub const atom_tc: AtomInfo = AtomInfo {
     name: "Tc",
     atomic_number: 43,
     number_of_neutrons: 55,
-    mass: 98,
+    mass: 98.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::TransitionMetal,
 };
@@ -584,7 +584,7 @@ pub const atom_pm: AtomInfo = AtomInfo {
     name: "Pm",
     atomic_number: 61,
     number_of_neutrons: 84,
-    mass: 145,
+    mass: 145.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::Lanthanide,
 };
@@ -791,7 +791,7 @@ pub const atom_po: AtomInfo = AtomInfo {
     name: "Po",
     atomic_number: 84,
     number_of_neutrons: 125,
-    mass: 209,
+    mass: 209.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::PostTransitionMetal,
 };
@@ -800,7 +800,7 @@ pub const atom_at: AtomInfo = AtomInfo {
     name: "At",
     atomic_number: 85,
     number_of_neutrons: 125,
-    mass: 210,
+    mass: 210.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::Metalloid,
 };
@@ -809,7 +809,7 @@ pub const atom_rn: AtomInfo = AtomInfo {
     name: "Rn",
     atomic_number: 86,
     number_of_neutrons: 136,
-    mass: 222,
+    mass: 222.0,
     state_of_matter: StateOfMatter::Gas,
     sub_category: SubCategory::NobleGas,
 };
@@ -818,7 +818,7 @@ pub const atom_fr: AtomInfo = AtomInfo {
     name: "Fr",
     atomic_number: 87,
     number_of_neutrons: 136,
-    mass: 223,
+    mass: 223.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::AlkaliMetal,
 };
@@ -827,7 +827,7 @@ pub const atom_ra: AtomInfo = AtomInfo {
     name: "Ra",
     atomic_number: 88,
     number_of_neutrons: 138,
-    mass: 226,
+    mass: 226.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::AlkaliMetal,
 };
@@ -836,7 +836,7 @@ pub const atom_ac: AtomInfo = AtomInfo {
     name: "Ac",
     atomic_number: 89,
     number_of_neutrons: 138,
-    mass: 227,
+    mass: 227.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::Actinide,
 };
@@ -872,7 +872,7 @@ pub const atom_np: AtomInfo = AtomInfo {
     name: "Np",
     atomic_number: 93,
     number_of_neutrons: 144,
-    mass: 237,
+    mass: 237.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::Actinide,
 };
@@ -881,7 +881,7 @@ pub const atom_pu: AtomInfo = AtomInfo {
     name: "Pu",
     atomic_number: 94,
     number_of_neutrons: 150,
-    mass: 244,
+    mass: 244.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::Actinide,
 };
@@ -890,7 +890,7 @@ pub const atom_am: AtomInfo = AtomInfo {
     name: "Am",
     atomic_number: 95,
     number_of_neutrons: 148,
-    mass: 243,
+    mass: 243.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::Actinide,
 };
@@ -899,7 +899,7 @@ pub const atom_cm: AtomInfo = AtomInfo {
     name: "Cm",
     atomic_number: 96,
     number_of_neutrons: 151,
-    mass: 247,
+    mass: 247.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::Actinide,
 };
@@ -908,7 +908,7 @@ pub const atom_bk: AtomInfo = AtomInfo {
     name: "Bk",
     atomic_number: 97,
     number_of_neutrons: 150,
-    mass: 247,
+    mass: 247.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::Actinide,
 };
@@ -917,7 +917,7 @@ pub const atom_cf: AtomInfo = AtomInfo {
     name: "Cf",
     atomic_number: 98,
     number_of_neutrons: 153,
-    mass: 251,
+    mass: 251.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::Actinide,
 };
@@ -926,8 +926,179 @@ pub const atom_es: AtomInfo = AtomInfo {
     name: "Es",
     atomic_number: 99,
     number_of_neutrons: 153,
-    mass: 252,
+    mass: 252.0,
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::Actinide,
+};
+
+pub const atom_fm: AtomInfo = AtomInfo {
+    name: "Fm",
+    atomic_number: 100,
+    number_of_neutrons: 157,
+    mass: 257.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::Actinide,
+};
+
+pub const atom_md: AtomInfo = AtomInfo {
+    name: "Md",
+    atomic_number: 101,
+    number_of_neutrons: 157,
+    mass: 258.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::Actinide,
+};
+
+pub const atom_no: AtomInfo = AtomInfo {
+    name: "No",
+    atomic_number: 102,
+    number_of_neutrons: 157,
+    mass: 259.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::Actinide,
+};
+
+pub const atom_lr: AtomInfo = AtomInfo {
+    name: "Lr",
+    atomic_number: 103,
+    number_of_neutrons: 159,
+    mass: 262.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::Actinide,
+};
+
+pub const atom_rf: AtomInfo = AtomInfo {
+    name: "Rf",
+    atomic_number: 104,
+    number_of_neutrons: 157,
+    mass: 261.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::TransitionMetal,
+};
+
+pub const atom_db: AtomInfo = AtomInfo {
+    name: "Db",
+    atomic_number: 105,
+    number_of_neutrons: 157,
+    mass: 262.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::TransitionMetal,
+};
+
+pub const atom_sg: AtomInfo = AtomInfo {
+    name: "Sg",
+    atomic_number: 106,
+    number_of_neutrons: 157,
+    mass: 263.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::TransitionMetal,
+};
+
+pub const atom_bh: AtomInfo = AtomInfo {
+    name: "Bh",
+    atomic_number: 107,
+    number_of_neutrons: 155,
+    mass: 155.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::TransitionMetal,
+};
+
+pub const atom_hs: AtomInfo = AtomInfo {
+    name: "Hs",
+    atomic_number: 108,
+    number_of_neutrons: 157,
+    mass: 265.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::TransitionMetal,
+};
+
+pub const atom_mt: AtomInfo = AtomInfo {
+    name: "Mt",
+    atomic_number: 109,
+    number_of_neutrons: 157,
+    mass: 266.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::TransitionMetal,
+};
+
+pub const atom_ds: AtomInfo = AtomInfo {
+    name: "Ds",
+    atomic_number: 110,
+    number_of_neutrons: 151,
+    mass: 281.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::Unknown,
+};
+
+pub const atom_rg: AtomInfo = AtomInfo {
+    name: "Rg",
+    atomic_number: 111,
+    number_of_neutrons: 161,
+    mass: 280.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::Unknown,
+};
+
+pub const atom_cn: AtomInfo = AtomInfo {
+    name: "Cn",
+    atomic_number: 112,
+    number_of_neutrons: 173,
+    mass: 285.0,
+    state_of_matter: StateOfMatter::Gas,
+    sub_category: SubCategory::TransitionMetal,
+};
+
+pub const atom_nh: AtomInfo = AtomInfo {
+    name: "Nh",
+    atomic_number: 113,
+    number_of_neutrons: 173,
+    mass: 113.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::Unknown,
+};
+
+pub const atom_fl: AtomInfo = AtomInfo {
+    name: "Fl",
+    atomic_number: 114,
+    number_of_neutrons: 175,
+    mass: 289.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::PostTransitionMetal,
+};
+
+pub const atom_mc: AtomInfo = AtomInfo {
+    name: "Mc",
+    atomic_number: 115,
+    number_of_neutrons: 174,
+    mass: 290.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::Unknown,
+};
+
+pub const atom_lv: AtomInfo = AtomInfo {
+    name: "Lv",
+    atomic_number: 116,
+    number_of_neutrons: 177,
+    mass: 293.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::Unknown,
+};
+
+pub const atom_ts: AtomInfo = AtomInfo {
+    name: "Ts",
+    atomic_number: 117,
+    number_of_neutrons: 177,
+    mass: 294.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::Unknown,
+};
+
+pub const atom_og: AtomInfo = AtomInfo {
+    name: "Og",
+    atomic_number: 118,
+    number_of_neutrons: 176,
+    mass: 294.0,
+    state_of_matter: StateOfMatter::Solid,
+    sub_category: SubCategory::Unknown,
 };
 
