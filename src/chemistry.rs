@@ -31,6 +31,7 @@ pub enum SubCategory {
 
 pub struct AtomInfo {
     name: &'static str,
+    full_name: &'static str,
     atomic_number: u32,
     group: u32,
     period: u8,
@@ -49,6 +50,7 @@ pub struct AtomInfo {
 
 pub const atom_h: AtomInfo = AtomInfo {
     name: "H",
+    full_name: "Hydrogen",
     atomic_number: 1,
     group: 1,
     period: 1,
@@ -66,6 +68,7 @@ pub const atom_h: AtomInfo = AtomInfo {
 
 pub const atom_he: AtomInfo = AtomInfo {
     name: "He",
+    full_name: "Helium",
     atomic_number: 2,
     group: 18,
     period: 1,
@@ -84,6 +87,7 @@ pub const atom_he: AtomInfo = AtomInfo {
 
 pub const atom_li: AtomInfo = AtomInfo {
     name: "Li",
+    full_name: "Lithium",
     atomic_number: 3,
     group: 1,
     period: 2,
@@ -101,6 +105,7 @@ pub const atom_li: AtomInfo = AtomInfo {
 
 pub const atom_be: AtomInfo = AtomInfo {
     name: "Be",
+    full_name: "Beryllium",
     atomic_number: 4,
     group: 2,
     period: 2,
@@ -118,6 +123,7 @@ pub const atom_be: AtomInfo = AtomInfo {
 
 pub const atom_b: AtomInfo = AtomInfo {
     name: "B",
+    full_name: "Boron",
     atomic_number: 5,
     group: 13,
     period: 2,
@@ -135,6 +141,7 @@ pub const atom_b: AtomInfo = AtomInfo {
 
 pub const atom_c: AtomInfo = AtomInfo {
     name: "C",
+    full_name: "Carbon",
     atomic_number: 6,
     group: 14,
     period: 2,
@@ -152,6 +159,7 @@ pub const atom_c: AtomInfo = AtomInfo {
 
 pub const atom_n: AtomInfo = AtomInfo {
     name: "N",
+    full_name: "Nitrogen",
     atomic_number: 7,
     group: 15,
     period: 2,
@@ -169,6 +177,7 @@ pub const atom_n: AtomInfo = AtomInfo {
 
 pub const atom_o: AtomInfo = AtomInfo {
     name: "O",
+    full_name: "Oxygen",
     atomic_number: 8,
     group: 16,
     period: 2,
@@ -186,6 +195,7 @@ pub const atom_o: AtomInfo = AtomInfo {
 
 pub const atom_f: AtomInfo = AtomInfo {
     name: "F",
+    full_name: "Fluorine",
     atomic_number: 9,
     group: 17,
     period: 2,
@@ -203,6 +213,7 @@ pub const atom_f: AtomInfo = AtomInfo {
 
 pub const atom_ne: AtomInfo = AtomInfo {
     name: "Ne",
+    full_name: "Neon",
     atomic_number: 10,
     group: 18,
     period: 2,
@@ -220,6 +231,7 @@ pub const atom_ne: AtomInfo = AtomInfo {
 
 pub const atom_na: AtomInfo = AtomInfo {
     name: "Na",
+    full_name: "Sodium",
     atomic_number: 11,
     group: 1,
     period: 3,
@@ -237,6 +249,7 @@ pub const atom_na: AtomInfo = AtomInfo {
 
 pub const atom_mg: AtomInfo = AtomInfo {
     name: "Mg",
+    full_name: "Magnesium",
     atomic_number: 12,
     group: 2,
     period: 3,
@@ -254,6 +267,7 @@ pub const atom_mg: AtomInfo = AtomInfo {
 
 pub const atom_al: AtomInfo = AtomInfo {
     name: "Al",
+    full_name: "Aluminium",
     atomic_number: 13,
     group: 13,
     period: 3,
@@ -271,6 +285,7 @@ pub const atom_al: AtomInfo = AtomInfo {
 
 pub const atom_si: AtomInfo = AtomInfo {
     name: "Si",
+    full_name: "Silicon",
     atomic_number: 14,
     group: 14,
     period: 3,
@@ -288,6 +303,7 @@ pub const atom_si: AtomInfo = AtomInfo {
 
 pub const atom_p: AtomInfo = AtomInfo {
     name: "P",
+    full_name: "Phosphorus",
     atomic_number: 15,
     group: 15,
     period: 3,
@@ -305,6 +321,7 @@ pub const atom_p: AtomInfo = AtomInfo {
 
 pub const atom_s: AtomInfo = AtomInfo {
     name: "S",
+    full_name: "Sulfur",
     atomic_number: 16,
     group: 16,
     period: 3,
@@ -322,6 +339,7 @@ pub const atom_s: AtomInfo = AtomInfo {
 
 pub const atom_cl: AtomInfo = AtomInfo {
     name: "Cl",
+    full_name: "Chlorine",
     atomic_number: 17,
     group: 17,
     period: 3,
@@ -339,6 +357,7 @@ pub const atom_cl: AtomInfo = AtomInfo {
 
 pub const atom_ar: AtomInfo = AtomInfo {
     name: "Ar",
+    full_name: "Argon",
     atomic_number: 18,
     group: 18,
     period: 3,
@@ -356,6 +375,7 @@ pub const atom_ar: AtomInfo = AtomInfo {
 
 pub const atom_k: AtomInfo = AtomInfo {
     name: "K",
+    full_name: "Potassium",
     atomic_number: 19,
     group: 1,
     period: 4,
@@ -373,6 +393,7 @@ pub const atom_k: AtomInfo = AtomInfo {
 
 pub const atom_ca: AtomInfo = AtomInfo {
     name: "Ca",
+    full_name: "Calcium",
     atomic_number: 20,
     group: 2,
     period: 4,
@@ -390,6 +411,7 @@ pub const atom_ca: AtomInfo = AtomInfo {
 
 pub const atom_sc: AtomInfo = AtomInfo {
     name: "Sc",
+    full_name: "Scandium",
     atomic_number: 21,
     group: 3,
     period: 4,
@@ -407,6 +429,7 @@ pub const atom_sc: AtomInfo = AtomInfo {
 
 pub const atom_ti: AtomInfo = AtomInfo {
     name: "Ti",
+    full_name: "Titanium",
     atomic_number: 22,
     group: 4,
     period: 4,
@@ -424,6 +447,7 @@ pub const atom_ti: AtomInfo = AtomInfo {
 
 pub const atom_v: AtomInfo = AtomInfo {
     name: "V",
+    full_name: "Vanadium",
     atomic_number: 23,
     group: 5,
     period: 4,
@@ -441,6 +465,7 @@ pub const atom_v: AtomInfo = AtomInfo {
 
 pub const atom_cr: AtomInfo = AtomInfo {
     name: "Cr",
+    full_name: "Chromium",
     atomic_number: 24,
     group: 6,
     period: 4,
@@ -458,6 +483,7 @@ pub const atom_cr: AtomInfo = AtomInfo {
 
 pub const atom_mn: AtomInfo = AtomInfo {
     name: "Mn",
+    full_name: "Manganese",
     atomic_number: 25,
     group: 7,
     period: 4,
@@ -475,6 +501,7 @@ pub const atom_mn: AtomInfo = AtomInfo {
 
 pub const atom_fe: AtomInfo = AtomInfo {
     name: "Fe",
+    full_name: "Iron",
     atomic_number: 26,
     group: 8,
     period: 4,
@@ -492,6 +519,7 @@ pub const atom_fe: AtomInfo = AtomInfo {
 
 pub const atom_co: AtomInfo = AtomInfo {
     name: "Co",
+    full_name: "Cobalt",
     atomic_number: 27,
     group: 9,
     period: 4,
@@ -509,6 +537,7 @@ pub const atom_co: AtomInfo = AtomInfo {
 
 pub const atom_ni: AtomInfo = AtomInfo {
     name: "Ni",
+    full_name: "Nickel",
     atomic_number: 28,
     group: 10,
     period: 4,
@@ -526,6 +555,7 @@ pub const atom_ni: AtomInfo = AtomInfo {
 
 pub const atom_cu: AtomInfo = AtomInfo {
     name: "Cu",
+    full_name: "Copper",
     atomic_number: 29,
     group: 11,
     period: 4,
@@ -543,6 +573,7 @@ pub const atom_cu: AtomInfo = AtomInfo {
 
 pub const atom_zn: AtomInfo = AtomInfo {
     name: "Zn",
+    full_name: "Zinc",
     atomic_number: 30,
     group: 12,
     period: 4,
@@ -560,6 +591,7 @@ pub const atom_zn: AtomInfo = AtomInfo {
 
 pub const atom_ga: AtomInfo = AtomInfo {
     name: "Ga",
+    full_name: "Gallium",
     atomic_number: 31,
     group: 13,
     period: 4,
@@ -577,6 +609,7 @@ pub const atom_ga: AtomInfo = AtomInfo {
 
 pub const atom_ge: AtomInfo = AtomInfo {
     name: "Ge",
+    full_name: "Germanium",
     atomic_number: 32,
     group: 14,
     period: 4,
@@ -594,6 +627,7 @@ pub const atom_ge: AtomInfo = AtomInfo {
 
 pub const atom_as: AtomInfo = AtomInfo {
     name: "As",
+    full_name: "Arsenic",
     atomic_number: 33,
     group: 15,
     period: 4,
@@ -611,6 +645,7 @@ pub const atom_as: AtomInfo = AtomInfo {
 
 pub const atom_se: AtomInfo = AtomInfo {
     name: "Se",
+    full_name: "Selenium",
     atomic_number: 34,
     group: 16,
     period: 4,
@@ -628,6 +663,7 @@ pub const atom_se: AtomInfo = AtomInfo {
 
 pub const atom_br: AtomInfo = AtomInfo {
     name: "Br",
+    full_name: "Bromine",
     atomic_number: 35,
     group: 17,
     period: 4,
@@ -645,6 +681,7 @@ pub const atom_br: AtomInfo = AtomInfo {
 
 pub const atom_kr: AtomInfo = AtomInfo {
     name: "Kr",
+    full_name: "Krypton",
     atomic_number: 36,
     group: 18,
     period: 4,
@@ -662,6 +699,7 @@ pub const atom_kr: AtomInfo = AtomInfo {
 
 pub const atom_rb: AtomInfo = AtomInfo {
     name: "Rb",
+    full_name: "Rubidium",
     atomic_number: 37,
     group: 1,
     period: 5,
@@ -679,6 +717,7 @@ pub const atom_rb: AtomInfo = AtomInfo {
 
 pub const atom_sr: AtomInfo = AtomInfo {
     name: "Sr",
+    full_name: "Strontium",
     atomic_number: 38,
     group: 2,
     period: 5,
@@ -696,6 +735,7 @@ pub const atom_sr: AtomInfo = AtomInfo {
 
 pub const atom_y: AtomInfo = AtomInfo {
     name: "Y",
+    full_name: "Yttrium",
     atomic_number: 39,
     group: 3,
     period: 5,
@@ -713,6 +753,7 @@ pub const atom_y: AtomInfo = AtomInfo {
 
 pub const atom_zr: AtomInfo = AtomInfo {
     name: "Zr",
+    full_name: "Zirconium",
     atomic_number: 40,
     group: 4,
     period: 5,
@@ -730,6 +771,7 @@ pub const atom_zr: AtomInfo = AtomInfo {
 
 pub const atom_nb: AtomInfo = AtomInfo {
     name: "Nb",
+    full_name: "Niobium",
     atomic_number: 41,
     group: 5,
     period: 5,
@@ -747,6 +789,7 @@ pub const atom_nb: AtomInfo = AtomInfo {
 
 pub const atom_mo: AtomInfo = AtomInfo {
     name: "Mo",
+    full_name: "Molybdenum",
     atomic_number: 42,
     group: 6,
     period: 5,
@@ -764,6 +807,7 @@ pub const atom_mo: AtomInfo = AtomInfo {
 
 pub const atom_tc: AtomInfo = AtomInfo {
     name: "Tc",
+    full_name: "Technetium",
     atomic_number: 43,
     group: 7,
     period: 5,
@@ -781,6 +825,7 @@ pub const atom_tc: AtomInfo = AtomInfo {
 
 pub const atom_ru: AtomInfo = AtomInfo {
     name: "Ru",
+    full_name: "Ruthenium",
     atomic_number: 44,
     group: 8,
     period: 5,
@@ -798,6 +843,7 @@ pub const atom_ru: AtomInfo = AtomInfo {
 
 pub const atom_rh: AtomInfo = AtomInfo {
     name: "Rh",
+    full_name: "Rhodium",
     atomic_number: 45,
     group: 9,
     period: 5,
@@ -815,6 +861,7 @@ pub const atom_rh: AtomInfo = AtomInfo {
 
 pub const atom_pd: AtomInfo = AtomInfo {
     name: "Pd",
+    full_name: "Palladium",
     atomic_number: 46,
     group: 10,
     period: 5,
@@ -832,6 +879,7 @@ pub const atom_pd: AtomInfo = AtomInfo {
 
 pub const atom_ag: AtomInfo = AtomInfo {
     name: "Ag",
+    full_name: "Silver",
     atomic_number: 47,
     group: 11,
     period: 5,
@@ -849,6 +897,7 @@ pub const atom_ag: AtomInfo = AtomInfo {
 
 pub const atom_cd: AtomInfo = AtomInfo {
     name: "Cd",
+    full_name: "Cadmium",
     atomic_number: 48,
     group: 12,
     period: 5,
@@ -866,6 +915,7 @@ pub const atom_cd: AtomInfo = AtomInfo {
 
 pub const atom_in: AtomInfo = AtomInfo {
     name: "In",
+    full_name: "Indium",
     atomic_number: 49,
     group: 13,
     period: 5,
@@ -883,6 +933,7 @@ pub const atom_in: AtomInfo = AtomInfo {
 
 pub const atom_sn: AtomInfo = AtomInfo {
     name: "Sn",
+    full_name: "Tin",
     atomic_number: 50,
     group: 14,
     period: 5,
@@ -900,6 +951,7 @@ pub const atom_sn: AtomInfo = AtomInfo {
 
 pub const atom_sb: AtomInfo = AtomInfo {
     name: "Sb",
+    full_name: "Antimony",
     atomic_number: 51,
     group: 15,
     period: 5,
@@ -917,6 +969,7 @@ pub const atom_sb: AtomInfo = AtomInfo {
 
 pub const atom_te: AtomInfo = AtomInfo {
     name: "Te",
+    full_name: "Tellurium",
     atomic_number: 52,
     group: 16,
     period: 5,
@@ -934,6 +987,7 @@ pub const atom_te: AtomInfo = AtomInfo {
 
 pub const atom_i: AtomInfo = AtomInfo {
     name: "I",
+    full_name: "Iodine",
     atomic_number: 53,
     group: 17,
     period: 5,
@@ -951,6 +1005,7 @@ pub const atom_i: AtomInfo = AtomInfo {
 
 pub const atom_xe: AtomInfo = AtomInfo {
     name: "Xe",
+    full_name: "Xenon",
     atomic_number: 54,
     group: 18,
     period: 5,
@@ -968,6 +1023,7 @@ pub const atom_xe: AtomInfo = AtomInfo {
 
 pub const atom_cs: AtomInfo = AtomInfo {
     name: "Cs",
+    full_name: "Caesium",
     atomic_number: 55,
     group: 1,
     period: 6,
@@ -985,6 +1041,7 @@ pub const atom_cs: AtomInfo = AtomInfo {
 
 pub const atom_ba: AtomInfo = AtomInfo {
     name: "Ba",
+    full_name: "Barium",
     atomic_number: 56,
     group: 2,
     period: 6,
@@ -1002,6 +1059,7 @@ pub const atom_ba: AtomInfo = AtomInfo {
 
 pub const atom_la: AtomInfo = AtomInfo {
     name: "La",
+    full_name: "Lanthanum",
     atomic_number: 57,
     group: 3,
     period: 6,
@@ -1019,6 +1077,7 @@ pub const atom_la: AtomInfo = AtomInfo {
 
 pub const atom_ce: AtomInfo = AtomInfo {
     name: "Ce",
+    full_name: "Cerium",
     atomic_number: 58,
     period: 6,
     group: 0,
@@ -1036,6 +1095,7 @@ pub const atom_ce: AtomInfo = AtomInfo {
 
 pub const atom_pr: AtomInfo = AtomInfo {
     name: "Pr",
+    full_name: "Praseodymium",
     atomic_number: 59,
     period: 6,
     group: 0,
@@ -1053,6 +1113,7 @@ pub const atom_pr: AtomInfo = AtomInfo {
 
 pub const atom_nd: AtomInfo = AtomInfo {
     name: "Nd",
+    full_name: "Neodymium",
     atomic_number: 60,
     period: 6,
     group: 0,
@@ -1070,6 +1131,7 @@ pub const atom_nd: AtomInfo = AtomInfo {
 
 pub const atom_pm: AtomInfo = AtomInfo {
     name: "Pm",
+    full_name: "Promethium",
     atomic_number: 61,
     period: 6,
     group: 0,
@@ -1087,6 +1149,7 @@ pub const atom_pm: AtomInfo = AtomInfo {
 
 pub const atom_sm: AtomInfo = AtomInfo {
     name: "Sm",
+    full_name: "Samarium",
     atomic_number: 62,
     period: 6,
     group: 0,
@@ -1104,6 +1167,7 @@ pub const atom_sm: AtomInfo = AtomInfo {
 
 pub const atom_eu: AtomInfo = AtomInfo {
     name: "Eu",
+    full_name: "Europium",
     atomic_number: 63,
     period: 6,
     group: 0,
@@ -1121,6 +1185,7 @@ pub const atom_eu: AtomInfo = AtomInfo {
 
 pub const atom_gd: AtomInfo = AtomInfo {
     name: "Gd",
+    full_name: "Gadolinium",
     atomic_number: 64,
     period: 6,
     group: 0,
@@ -1138,6 +1203,7 @@ pub const atom_gd: AtomInfo = AtomInfo {
 
 pub const atom_tb: AtomInfo = AtomInfo {
     name: "Tb",
+    full_name: "Terbium",
     atomic_number: 65,
     period: 6,
     group: 0,
@@ -1155,6 +1221,7 @@ pub const atom_tb: AtomInfo = AtomInfo {
 
 pub const atom_dy: AtomInfo = AtomInfo {
     name: "Dy",
+    full_name: "Dysprosium",
     atomic_number: 66,
     period: 6,
     group: 0,
@@ -1172,6 +1239,7 @@ pub const atom_dy: AtomInfo = AtomInfo {
 
 pub const atom_ho: AtomInfo = AtomInfo {
     name: "Ho",
+    full_name: "Holmium",
     atomic_number: 67,
     period: 6,
     group: 0,
@@ -1189,6 +1257,7 @@ pub const atom_ho: AtomInfo = AtomInfo {
 
 pub const atom_er: AtomInfo = AtomInfo {
     name: "Er",
+    full_name: "Erbium",
     atomic_number: 68,
     period: 6,
     group: 0,
@@ -1206,6 +1275,7 @@ pub const atom_er: AtomInfo = AtomInfo {
 
 pub const atom_tm: AtomInfo = AtomInfo {
     name: "Tm",
+    full_name: "Thulium",
     atomic_number: 69,
     period: 6,
     group: 0,
@@ -1223,6 +1293,7 @@ pub const atom_tm: AtomInfo = AtomInfo {
 
 pub const atom_yb: AtomInfo = AtomInfo {
     name: "Yb",
+    full_name: "Ytterbium",
     atomic_number: 70,
     period: 6,
     group: 0,
@@ -1240,6 +1311,7 @@ pub const atom_yb: AtomInfo = AtomInfo {
 
 pub const atom_lu: AtomInfo = AtomInfo {
     name: "Lu",
+    full_name: "Lutetium",
     atomic_number: 71,
     period: 6,
     group: 0,
@@ -1257,6 +1329,7 @@ pub const atom_lu: AtomInfo = AtomInfo {
 
 pub const atom_hf: AtomInfo = AtomInfo {
     name: "Hf",
+    full_name: "Hafnium",
     atomic_number: 72,
     group: 4,
     period: 6,
@@ -1274,6 +1347,7 @@ pub const atom_hf: AtomInfo = AtomInfo {
 
 pub const atom_ta: AtomInfo = AtomInfo {
     name: "Ta",
+    full_name: "Tantalum",
     atomic_number: 73,
     group: 5,
     period: 6,
@@ -1291,6 +1365,7 @@ pub const atom_ta: AtomInfo = AtomInfo {
 
 pub const atom_w: AtomInfo = AtomInfo {
     name: "W",
+    full_name: "Tungsten",
     atomic_number: 74,
     group: 6,
     period: 6,
@@ -1308,6 +1383,7 @@ pub const atom_w: AtomInfo = AtomInfo {
 
 pub const atom_re: AtomInfo = AtomInfo {
     name: "Re",
+    full_name: "Rhenium",
     atomic_number: 75,
     group: 7,
     period: 6,
@@ -1325,6 +1401,7 @@ pub const atom_re: AtomInfo = AtomInfo {
 
 pub const atom_os: AtomInfo = AtomInfo {
     name: "Os",
+    full_name: "Osmium",
     atomic_number: 76,
     group: 8,
     period: 6,
@@ -1342,6 +1419,7 @@ pub const atom_os: AtomInfo = AtomInfo {
 
 pub const atom_ir: AtomInfo = AtomInfo {
     name: "Ir",
+    full_name: "Iridium",
     atomic_number: 77,
     group: 9,
     period: 6,
@@ -1359,6 +1437,7 @@ pub const atom_ir: AtomInfo = AtomInfo {
 
 pub const atom_pt: AtomInfo = AtomInfo {
     name: "Pt",
+    full_name: "Platinum",
     atomic_number: 78,
     group: 10,
     period: 6,
@@ -1376,6 +1455,7 @@ pub const atom_pt: AtomInfo = AtomInfo {
 
 pub const atom_au: AtomInfo = AtomInfo {
     name: "Au",
+    full_name: "Gold",
     atomic_number: 79,
     group: 11,
     period: 6,
@@ -1393,6 +1473,7 @@ pub const atom_au: AtomInfo = AtomInfo {
 
 pub const atom_hg: AtomInfo = AtomInfo {
     name: "Hg",
+    full_name: "Mercury",
     atomic_number: 80,
     group: 12,
     period: 6,
@@ -1410,6 +1491,7 @@ pub const atom_hg: AtomInfo = AtomInfo {
 
 pub const atom_Tl: AtomInfo = AtomInfo {
     name: "Tl",
+    full_name: "Thallium",
     atomic_number: 81,
     group: 13,
     period: 6,
@@ -1427,6 +1509,7 @@ pub const atom_Tl: AtomInfo = AtomInfo {
 
 pub const atom_pb: AtomInfo = AtomInfo {
     name: "Pb",
+    full_name: "Lead",
     atomic_number: 82,
     group: 14,
     period: 6,
@@ -1444,6 +1527,7 @@ pub const atom_pb: AtomInfo = AtomInfo {
 
 pub const atom_bi: AtomInfo = AtomInfo {
     name: "Bi",
+    full_name: "Bismuth",
     atomic_number: 83,
     group: 15,
     period: 6,
@@ -1461,6 +1545,7 @@ pub const atom_bi: AtomInfo = AtomInfo {
 
 pub const atom_po: AtomInfo = AtomInfo {
     name: "Po",
+    full_name: "Polonium",
     atomic_number: 84,
     group: 16,
     period: 6,
@@ -1478,6 +1563,7 @@ pub const atom_po: AtomInfo = AtomInfo {
 
 pub const atom_at: AtomInfo = AtomInfo {
     name: "At",
+    full_name: "Astatine",
     atomic_number: 85,
     group: 17,
     period: 6,
@@ -1495,6 +1581,7 @@ pub const atom_at: AtomInfo = AtomInfo {
 
 pub const atom_rn: AtomInfo = AtomInfo {
     name: "Rn",
+    full_name: "Radon",
     atomic_number: 86,
     group: 18,
     period: 6,
@@ -1512,6 +1599,7 @@ pub const atom_rn: AtomInfo = AtomInfo {
 
 pub const atom_fr: AtomInfo = AtomInfo {
     name: "Fr",
+    full_name: "Francium",
     atomic_number: 87,
     group: 1,
     period: 7,
@@ -1529,6 +1617,7 @@ pub const atom_fr: AtomInfo = AtomInfo {
 
 pub const atom_ra: AtomInfo = AtomInfo {
     name: "Ra",
+    full_name: "Radium",
     atomic_number: 88,
     period: 7,
     density: 5.5,
@@ -1546,6 +1635,7 @@ pub const atom_ra: AtomInfo = AtomInfo {
 
 pub const atom_ac: AtomInfo = AtomInfo {
     name: "Ac",
+    full_name: "Actinium",
     atomic_number: 89,
     period: 7,
     density: 10.07,
@@ -1563,6 +1653,7 @@ pub const atom_ac: AtomInfo = AtomInfo {
 
 pub const atom_th: AtomInfo = AtomInfo {
     name: "Th",
+    full_name: "Thorium",
     atomic_number: 90,
     period: 7,
     group: 0,
@@ -1580,6 +1671,7 @@ pub const atom_th: AtomInfo = AtomInfo {
 
 pub const atom_pa: AtomInfo = AtomInfo {
     name: "Pa",
+    full_name: "Protactinium",
     atomic_number: 91,
     period: 7,
     group: 0,
@@ -1597,6 +1689,7 @@ pub const atom_pa: AtomInfo = AtomInfo {
 
 pub const atom_u: AtomInfo = AtomInfo {
     name: "U",
+    full_name: "Uranium",
     atomic_number: 92,
     period: 7,
     group: 0,
@@ -1614,6 +1707,7 @@ pub const atom_u: AtomInfo = AtomInfo {
 
 pub const atom_np: AtomInfo = AtomInfo {
     name: "Np",
+    full_name: "Neptunium",
     atomic_number: 93,
     period: 7,
     group: 0,
@@ -1631,6 +1725,7 @@ pub const atom_np: AtomInfo = AtomInfo {
 
 pub const atom_pu: AtomInfo = AtomInfo {
     name: "Pu",
+    full_name: "Plutonium",
     atomic_number: 94,
     period: 7,
     group: 0,
@@ -1648,6 +1743,7 @@ pub const atom_pu: AtomInfo = AtomInfo {
 
 pub const atom_am: AtomInfo = AtomInfo {
     name: "Am",
+    full_name: "Americium",
     atomic_number: 95,
     period: 7,
     group: 0,
@@ -1665,6 +1761,7 @@ pub const atom_am: AtomInfo = AtomInfo {
 
 pub const atom_cm: AtomInfo = AtomInfo {
     name: "Cm",
+    full_name: "Curium",
     atomic_number: 96,
     period: 7,
     group: 0,
@@ -1682,6 +1779,7 @@ pub const atom_cm: AtomInfo = AtomInfo {
 
 pub const atom_bk: AtomInfo = AtomInfo {
     name: "Bk",
+    full_name: "Berkelium",
     atomic_number: 97,
     period: 7,
     group: 0,
@@ -1699,6 +1797,7 @@ pub const atom_bk: AtomInfo = AtomInfo {
 
 pub const atom_cf: AtomInfo = AtomInfo {
     name: "Cf",
+    full_name: "Californium",
     atomic_number: 98,
     period: 7,
     group: 0,
@@ -1716,6 +1815,7 @@ pub const atom_cf: AtomInfo = AtomInfo {
 
 pub const atom_es: AtomInfo = AtomInfo {
     name: "Es",
+    full_name: "Einsteinium",
     atomic_number: 99,
     period: 7,
     group: 0,
@@ -1733,6 +1833,7 @@ pub const atom_es: AtomInfo = AtomInfo {
 
 pub const atom_fm: AtomInfo = AtomInfo {
     name: "Fm",
+    full_name: "Fermium",
     atomic_number: 100,
     period: 7,
     group: 0,
@@ -1750,6 +1851,7 @@ pub const atom_fm: AtomInfo = AtomInfo {
 
 pub const atom_md: AtomInfo = AtomInfo {
     name: "Md",
+    full_name: "Mendelevium",
     atomic_number: 101,
     period: 7,
     group: 0,
@@ -1767,6 +1869,7 @@ pub const atom_md: AtomInfo = AtomInfo {
 
 pub const atom_no: AtomInfo = AtomInfo {
     name: "No",
+    full_name: "Nobelium",
     atomic_number: 102,
     period: 7,
     group: 0,
@@ -1784,6 +1887,7 @@ pub const atom_no: AtomInfo = AtomInfo {
 
 pub const atom_lr: AtomInfo = AtomInfo {
     name: "Lr",
+    full_name: "Lawrencium",
     atomic_number: 103,
     period: 7,
     group: 0,
@@ -1801,6 +1905,7 @@ pub const atom_lr: AtomInfo = AtomInfo {
 
 pub const atom_rf: AtomInfo = AtomInfo {
     name: "Rf",
+    full_name: "Rutherfordium",
     atomic_number: 104,
     period: 7,
     density: 23.2,
@@ -1818,6 +1923,7 @@ pub const atom_rf: AtomInfo = AtomInfo {
 
 pub const atom_db: AtomInfo = AtomInfo {
     name: "Db",
+    full_name: "Dubnium",
     atomic_number: 105,
     period: 7,
     density: 29.3,
@@ -1835,6 +1941,7 @@ pub const atom_db: AtomInfo = AtomInfo {
 
 pub const atom_sg: AtomInfo = AtomInfo {
     name: "Sg",
+    full_name: "Seaborgium",
     atomic_number: 106,
     period: 7,
     density: 35.0,
@@ -1852,6 +1959,7 @@ pub const atom_sg: AtomInfo = AtomInfo {
 
 pub const atom_bh: AtomInfo = AtomInfo {
     name: "Bh",
+    full_name: "Bohrium",
     atomic_number: 107,
     period: 7,
     density: 37.1,
@@ -1869,6 +1977,7 @@ pub const atom_bh: AtomInfo = AtomInfo {
 
 pub const atom_hs: AtomInfo = AtomInfo {
     name: "Hs",
+    full_name: "Hassium",
     atomic_number: 108,
     period: 7,
     density: 40.7,
@@ -1886,6 +1995,7 @@ pub const atom_hs: AtomInfo = AtomInfo {
 
 pub const atom_mt: AtomInfo = AtomInfo {
     name: "Mt",
+    full_name: "Meitnerium",
     atomic_number: 109,
     period: 7,
     density: 37.4,
@@ -1903,6 +2013,7 @@ pub const atom_mt: AtomInfo = AtomInfo {
 
 pub const atom_ds: AtomInfo = AtomInfo {
     name: "Ds",
+    full_name: "Darmstadtium",
     atomic_number: 110,
     period: 7,
     density: 34.8,
@@ -1920,6 +2031,7 @@ pub const atom_ds: AtomInfo = AtomInfo {
 
 pub const atom_rg: AtomInfo = AtomInfo {
     name: "Rg",
+    full_name: "Roentgenium",
     atomic_number: 111,
     period: 7,
     density: 28.7,
@@ -1937,6 +2049,7 @@ pub const atom_rg: AtomInfo = AtomInfo {
 
 pub const atom_cn: AtomInfo = AtomInfo {
     name: "Cn",
+    full_name: "Copernicium",
     atomic_number: 112,
     period: 7,
     density: 23.7,
@@ -1954,6 +2067,7 @@ pub const atom_cn: AtomInfo = AtomInfo {
 
 pub const atom_nh: AtomInfo = AtomInfo {
     name: "Nh",
+    full_name: "Nihonium",
     atomic_number: 113,
     period: 7,
     density: 16.0,
@@ -1971,6 +2085,7 @@ pub const atom_nh: AtomInfo = AtomInfo {
 
 pub const atom_fl: AtomInfo = AtomInfo {
     name: "Fl",
+    full_name: "Flerovium",
     atomic_number: 114,
     period: 7,
     density: 14.0,
@@ -1988,6 +2103,7 @@ pub const atom_fl: AtomInfo = AtomInfo {
 
 pub const atom_mc: AtomInfo = AtomInfo {
     name: "Mc",
+    full_name: "Moscovium",
     atomic_number: 115,
     period: 7,
     density: 13.5,
@@ -2005,6 +2121,7 @@ pub const atom_mc: AtomInfo = AtomInfo {
 
 pub const atom_lv: AtomInfo = AtomInfo {
     name: "Lv",
+    full_name: "Livermorium",
     atomic_number: 116,
     period: 7,
     density: 12.9,
@@ -2022,6 +2139,7 @@ pub const atom_lv: AtomInfo = AtomInfo {
 
 pub const atom_ts: AtomInfo = AtomInfo {
     name: "Ts",
+    full_name: "Tennessine",
     atomic_number: 117,
     period: 7,
     density: 7.2,
@@ -2039,6 +2157,7 @@ pub const atom_ts: AtomInfo = AtomInfo {
 
 pub const atom_og: AtomInfo = AtomInfo {
     name: "Og",
+    full_name: "Oganesson",
     atomic_number: 118,
     period: 7,
     density: 5.0,
@@ -2053,4 +2172,3 @@ pub const atom_og: AtomInfo = AtomInfo {
     state_of_matter: StateOfMatter::Solid,
     sub_category: SubCategory::Unknown,
 };
-
