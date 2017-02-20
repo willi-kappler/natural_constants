@@ -5,6 +5,12 @@
 
 Pre-defined constants from all disciplines (math, physics, ...) as a Rust library.
 
+Add this to your Cargo.toml file:
+
+```
+natural_constants = "0.1.0"
+```
+
 ## Currently the following modules exist:
 
 - math
@@ -38,6 +44,10 @@ fn main() {
     let E = m0 * c * c;
 }
 ```
+
+- What about pre-calculated stuff ?
+
+Yes, why not ? If it's useful to you, it may also be useful to others.
 
 This is an ongoing effort to make Rust more suitable for scientific / numeric computing, you can join the discussion [here](https://users.rust-lang.org/t/numerics-math-foundation/7247).
 

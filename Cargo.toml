@@ -8,7 +8,7 @@ readme = "README.md"
 repository = "https://github.com/willi-kappler/natural_constants"
 keywords = ["constants", "physics", "math", "science"]
 categories = ["science"]
-documentation = "https://docs.rs/natural-constants/0.1/natural_constants/"
+documentation = "https://docs.rs/natural-constants/0.1.0/natural_constants/"
 
 [dependencies]
 # clippy = "*"
