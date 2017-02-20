@@ -4,6 +4,8 @@
 // https://en.wikipedia.org/wiki/List_of_materials_properties
 
 // https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity
+
+
 pub struct ElectricalInfo {
     resistivity: f64, // [ρ (Ω·m) at 20°C]
     conductivity: f64, // [σ (S/m) at 20°C]
@@ -152,4 +154,3 @@ pub const brick_adobe: f64 = 2.7e-7; // [m²/s]
 pub const glass_window: f64 = 3.4e-7; // [m²/s]
 pub const nylon: f64 = 9e-8; // [m²/s]
 pub const wood_yellow_pine: f64 = 8.2e-8; // [m²/s]
-

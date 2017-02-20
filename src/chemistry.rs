@@ -7,7 +7,8 @@ pub const steffan_boltzmann_constant: f64 = 5.670e-8 ; // [W/m² * K⁴]
 pub const universal_gas_constant: f64 = 8.31434e3; // [J/kmol * K]
 pub const normal_atmospheric_pressure: f64 = 101325.0; // [N/m²]
 
-pub enum StateOfMatter { // at 0 °C and 1 atm
+/// at 0 °C and 1 atm
+pub enum StateOfMatter {
     Solid,
     Liquid,
     Gas,
@@ -28,23 +29,22 @@ pub enum SubCategory {
     Unknown,
 }
 
-
 pub struct AtomInfo {
-    name: &'static str,
-    full_name: &'static str,
-    atomic_number: u32,
-    group: u32,
-    period: u8,
-    density: f64, // [g/cm³]
-    melt: Option<f64>, // [K]
-    boil: Option<f64>, // [K]
-    electronegativity: Option<f64>,
-    heat_capacity: Option<f64>, // [J/(g*K)]
-    abundance: f64, // [mg/kg]
-    number_of_neutrons: u32,
-    mass: f64, // https://en.wikipedia.org/wiki/Relative_atomic_mass
-    state_of_matter: StateOfMatter,
-    sub_category: SubCategory,
+    pub name: &'static str,
+    pub full_name: &'static str,
+    pub atomic_number: u32,
+    pub group: u32,
+    pub period: u8,
+    pub density: f64, // [g/cm³]
+    pub melt: Option<f64>, // [K]
+    pub boil: Option<f64>, // [K]
+    pub electronegativity: Option<f64>,
+    pub heat_capacity: Option<f64>, // [J/(g*K)]
+    pub abundance: f64, // [mg/kg]
+    pub number_of_neutrons: u32,
+    pub mass: f64, // https://en.wikipedia.org/wiki/Relative_atomic_mass
+    pub state_of_matter: StateOfMatter,
+    pub sub_category: SubCategory,
     // A lot of more stuff to be added...
 }
 

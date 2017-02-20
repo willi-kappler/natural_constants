@@ -32,7 +32,7 @@ use natural_constants::physics::*;
 
 fn main() {
     let c = speed_of_light_vac;
-	let m0 = 100.0;
+    let m0 = 100.0;
 
     // Use c in your code:
     let E = m0 * c * c;
@@ -41,7 +41,7 @@ fn main() {
 
 This is an ongoing effort to make Rust more suitable for scientific / numeric computing, you can join the discussion [here](https://users.rust-lang.org/t/numerics-math-foundation/7247).
 
-## Other usefull numeric / scientific crates:
+## Other useful numeric / scientific crates:
 
 - [rand](https://github.com/rust-lang-nursery/rand)
 - [num](https://github.com/rust-num/num)
