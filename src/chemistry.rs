@@ -1,7 +1,7 @@
 //! Chemistry related constants
 
 pub const absolute_zero: f64 = -273.15; // [°C]
-pub const avogadros_number: f64 = 6.024e23; // [molecules/mol]
+pub const avogadros_number: f64 = 6.022e23; // [molecules/mol]
 pub const boltzmanns_constant: f64 = 1.380e-23; // [J/K * molecule]
 pub const steffan_boltzmann_constant: f64 = 5.670e-8 ; // [W/m² * K⁴]
 pub const universal_gas_constant: f64 = 8.31434e3; // [J/kmol * K]
