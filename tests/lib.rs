@@ -31,3 +31,9 @@ fn test_conversion() {
     assert_eq!(kilo_to_mega(force_in_kn), 0.78023);
     assert_eq!(mega_to_kilo(0.78023), force_in_kn);
 }
+
+#[test]
+fn limits() {
+    use natural_constants::math::*;
+    assert_eq!(golden_ratio, (1.0 + 5.0_f64.sqrt())/2.0);
+}
