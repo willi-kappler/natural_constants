@@ -28,11 +28,11 @@ pub fn from_giga(value: f64) -> f64 {
     value * (scale_factor * scale_factor * scale_factor)
 }
 
-pub fn to_terra(value: f64) -> f64 {
+pub fn to_tera(value: f64) -> f64 {
     value / (scale_factor * scale_factor * scale_factor * scale_factor)
 }
 
-pub fn from_terra(value: f64) -> f64 {
+pub fn from_tera(value: f64) -> f64 {
     value * (scale_factor * scale_factor * scale_factor * scale_factor)
 }
 
