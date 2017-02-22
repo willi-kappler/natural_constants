@@ -30,6 +30,10 @@ fn test_conversion() {
     let force_in_kn = 780.23; // kilo newton
     assert_eq!(kilo_to_mega(force_in_kn), 0.78023);
     assert_eq!(mega_to_kilo(0.78023), force_in_kn);
+
+    let temp_in_kelvin = 1.0;
+    assert_eq!(kelvin_to_deg_cel(temp_in_kelvin), -272.15);
+    assert_eq!(deg_cel_to_kelvin(-272.15), temp_in_kelvin);
 }
 
 #[test]
