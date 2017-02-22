@@ -24,8 +24,8 @@ fn test_conversion() {
     assert_eq!(from_giga(73.0), file_size_in_bytes1);
 
     let file_size_in_bytes2 = 312_000_000_000_000.0; // 312 terabytes (not tebibytes)
-    assert_eq!(to_terra(file_size_in_bytes2), 312.0);
-    assert_eq!(from_terra(312.0), file_size_in_bytes2);
+    assert_eq!(to_tera(file_size_in_bytes2), 312.0);
+    assert_eq!(from_tera(312.0), file_size_in_bytes2);
 
     let force_in_kn = 780.23; // kilo newton
     assert_eq!(kilo_to_mega(force_in_kn), 0.78023);
