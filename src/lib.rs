@@ -13,7 +13,7 @@
 //! extern crate natural_constants;
 //! use natural_constants::physics::*;
 //!
-//! 
+//!
 //! fn main() {
 //!     let c = speed_of_light_vac;
 //!     let m0 = 100.0;
@@ -39,3 +39,4 @@ pub mod biology;
 pub mod engineering;
 pub mod conversion;
 pub mod misc;
+pub mod geosciences;
