@@ -7,9 +7,12 @@
 
 
 pub struct ElectricalInfo {
-    resistivity: f64, // [ρ (Ω·m) at 20°C]
-    conductivity: f64, // [σ (S/m) at 20°C]
-    temperature_coefficient: f64, // [K^(-1)]
+    /// [ρ (Ω·m) at 20°C]
+    resistivity: f64,
+    /// [σ (S/m) at 20°C]
+    conductivity: f64,
+    /// [K^(-1)]
+    temperature_coefficient: f64,
 }
 
 pub const carbon: ElectricalInfo = ElectricalInfo {

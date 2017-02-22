@@ -35,12 +35,17 @@ pub struct AtomInfo {
     pub atomic_number: u32,
     pub group: u32,
     pub period: u8,
-    pub density: f64, // [g/cm³]
-    pub melt: Option<f64>, // [K]
-    pub boil: Option<f64>, // [K]
+    /// [g/cm³]
+    pub density: f64,
+    /// [K]
+    pub melt: Option<f64>,
+    /// [K]
+    pub boil: Option<f64>,
     pub electronegativity: Option<f64>,
-    pub heat_capacity: Option<f64>, // [J/(g*K)]
-    pub abundance: f64, // [mg/kg]
+    /// [J/(g*K)]
+    pub heat_capacity: Option<f64>,
+    /// [mg/kg]
+    pub abundance: f64,
     pub number_of_neutrons: u32,
     pub mass: f64, // https://en.wikipedia.org/wiki/Relative_atomic_mass
     pub state_of_matter: StateOfMatter,
