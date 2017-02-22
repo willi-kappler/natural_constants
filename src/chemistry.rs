@@ -1,11 +1,17 @@
 //! Chemistry related constants
 
-pub const absolute_zero: f64 = -273.15; // [°C]
-pub const avogadros_number: f64 = 6.022e23; // [molecules/mol]
-pub const boltzmanns_constant: f64 = 1.380e-23; // [J/K * molecule]
-pub const steffan_boltzmann_constant: f64 = 5.670e-8 ; // [W/m² * K⁴]
-pub const universal_gas_constant: f64 = 8.31434e3; // [J/kmol * K]
-pub const normal_atmospheric_pressure: f64 = 101325.0; // [N/m²]
+/// [°C]
+pub const absolute_zero: f64 = -273.15;
+/// [molecules/mol]
+pub const avogadros_number: f64 = 6.022e23;
+/// [J/K molecule]
+pub const boltzmanns_constant: f64 = 1.380e-23;
+/// [W/m² K⁴]
+pub const steffan_boltzmann_constant: f64 = 5.670e-8 ;
+/// [J/kmol K]
+pub const universal_gas_constant: f64 = 8.31434e3;
+/// [N/m²]
+pub const normal_atmospheric_pressure: f64 = 101325.0;
 
 /// at 0 °C and 1 atm
 pub enum StateOfMatter {
@@ -35,12 +41,17 @@ pub struct AtomInfo {
     pub atomic_number: u32,
     pub group: u32,
     pub period: u8,
-    pub density: f64, // [g/cm³]
-    pub melt: Option<f64>, // [K]
-    pub boil: Option<f64>, // [K]
+    /// [g/cm³]
+    pub density: f64,
+    /// [K]
+    pub melt: Option<f64>,
+    /// [K]
+    pub boil: Option<f64>,
     pub electronegativity: Option<f64>,
-    pub heat_capacity: Option<f64>, // [J/(g*K)]
-    pub abundance: f64, // [mg/kg]
+    /// [J/(g K)]
+    pub heat_capacity: Option<f64>,
+    /// [mg/kg]
+    pub abundance: f64,
     pub number_of_neutrons: u32,
     pub mass: f64, // https://en.wikipedia.org/wiki/Relative_atomic_mass
     pub state_of_matter: StateOfMatter,
@@ -1489,7 +1500,7 @@ pub const atom_hg: AtomInfo = AtomInfo {
     sub_category: SubCategory::TransitionMetal,
 };
 
-pub const atom_Tl: AtomInfo = AtomInfo {
+pub const atom_tl: AtomInfo = AtomInfo {
     name: "Tl",
     full_name: "Thallium",
     atomic_number: 81,
