@@ -1489,7 +1489,7 @@ pub const atom_hg: AtomInfo = AtomInfo {
     sub_category: SubCategory::TransitionMetal,
 };
 
-pub const atom_Tl: AtomInfo = AtomInfo {
+pub const atom_tl: AtomInfo = AtomInfo {
     name: "Tl",
     full_name: "Thallium",
     atomic_number: 81,
