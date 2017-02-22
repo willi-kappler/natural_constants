@@ -138,22 +138,37 @@ pub const stainless_steel: ElectricalInfo = ElectricalInfo {
 
 
 // https://en.wikipedia.org/wiki/Thermal_diffusivity
-pub const pyrolytic_graphite_parallel_to_layers: f64 = 1.22e-3; // [m²/s]
-pub const silver_pure: f64 = 1.6563e-4; // [m²/s]
-pub const gold: f64 = 1.27e-4; // [m²/s]
-pub const copper_at_25_deg: f64 = 1.11e-4; // [m²/s]
-pub const aluminium: f64 = 9.7e-5; // [m²/s]
-pub const inconel_600_at_25_deg: f64 = 3.428e-6; // [m²/s]
-pub const molybdenum_99_95_perc_at_25_deg: f64 = 54.3e-6; // [m²/s]
+/// [m²/s]
+pub const pyrolytic_graphite_parallel_to_layers: f64 = 1.22e-3;
+/// [m²/s]
+pub const silver_pure: f64 = 1.6563e-4;
+/// [m²/s]
+pub const gold: f64 = 1.27e-4;
+/// [m²/s]
+pub const copper_at_25_deg: f64 = 1.11e-4;
+/// [m²/s]
+pub const aluminium: f64 = 9.7e-5;
+/// [m²/s]
+pub const inconel_600_at_25_deg: f64 = 3.428e-6;
+/// [m²/s]
+pub const molybdenum_99_95_perc_at_25_deg: f64 = 54.3e-6;
 //pub const iron: f64 = 2.3e-5; // [m²/s]
 //pub const silicon: f64 = 8.8e-5; // [m²/s]
 pub const quartz: f64 = 1.4e-6; // [m²/s]
-pub const aluminium_oxide_polycrystalline: f64 = 1.20e-5; // [m²/s]
-pub const silicon_dioxide_polycrystalline: f64 = 8.3e-7; // [m²/s]
-pub const alcohol: f64 = 7e-8; // [m²/s]
+/// [m²/s]
+pub const aluminium_oxide_polycrystalline: f64 = 1.20e-5;
+/// [m²/s]
+pub const silicon_dioxide_polycrystalline: f64 = 8.3e-7;
+/// [m²/s]
+pub const alcohol: f64 = 7e-8;
 //pub const tin: f64 = 4.0e-5; // [m²/s]
-pub const brick_common: f64 = 5.2e-7; // [m²/s]
-pub const brick_adobe: f64 = 2.7e-7; // [m²/s]
-pub const glass_window: f64 = 3.4e-7; // [m²/s]
-pub const nylon: f64 = 9e-8; // [m²/s]
-pub const wood_yellow_pine: f64 = 8.2e-8; // [m²/s]
+/// [m²/s]
+pub const brick_common: f64 = 5.2e-7;
+/// [m²/s]
+pub const brick_adobe: f64 = 2.7e-7;
+/// [m²/s]
+pub const glass_window: f64 = 3.4e-7;
+/// [m²/s]
+pub const nylon: f64 = 9e-8;
+/// [m²/s]
+pub const wood_yellow_pine: f64 = 8.2e-8;

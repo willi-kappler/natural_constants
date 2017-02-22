@@ -1,11 +1,17 @@
 //! Chemistry related constants
 
-pub const absolute_zero: f64 = -273.15; // [°C]
-pub const avogadros_number: f64 = 6.022e23; // [molecules/mol]
-pub const boltzmanns_constant: f64 = 1.380e-23; // [J/K molecule]
-pub const steffan_boltzmann_constant: f64 = 5.670e-8 ; // [W/m² K⁴]
-pub const universal_gas_constant: f64 = 8.31434e3; // [J/kmol K]
-pub const normal_atmospheric_pressure: f64 = 101325.0; // [N/m²]
+/// [°C]
+pub const absolute_zero: f64 = -273.15;
+/// [molecules/mol]
+pub const avogadros_number: f64 = 6.022e23;
+/// [J/K molecule]
+pub const boltzmanns_constant: f64 = 1.380e-23;
+/// [W/m² K⁴]
+pub const steffan_boltzmann_constant: f64 = 5.670e-8 ;
+/// [J/kmol K]
+pub const universal_gas_constant: f64 = 8.31434e3;
+/// [N/m²]
+pub const normal_atmospheric_pressure: f64 = 101325.0;
 
 /// at 0 °C and 1 atm
 pub enum StateOfMatter {
