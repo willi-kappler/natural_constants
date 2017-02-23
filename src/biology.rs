@@ -122,11 +122,11 @@ pub const e_coli_imp_pool_size_max: f64 = 0.39;
 /// %
 pub const e_coli_percent_of_cell_total_dry_weight_that_is_lipopolysaccharide: f64 = 3.4;
 /// Molecules / cell
-pub const e_coli_reca_molecules_per_cell: f64 = 1000;
+pub const e_coli_reca_molecules_per_cell: f64 = 1000.0;
 /// %
-pub const e_coli_reca_molecules_per_cell_min: f64 = 800;
+pub const e_coli_reca_molecules_per_cell_min: f64 = 800.0;
 /// %
-pub const e_coli_reca_molecules_per_cell_max: f64 = 1200;
+pub const e_coli_reca_molecules_per_cell_max: f64 = 1200.0;
 /// µm^2/sec
 pub const e_coli_apparent_diffusion_constant_of_protein_along_dna_segments: f64 = 0.4;
 /// µm^2/sec
