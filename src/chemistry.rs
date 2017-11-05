@@ -1641,7 +1641,7 @@ pub const atom_ra: AtomInfo = AtomInfo {
     number_of_neutrons: 138,
     mass: 226.0,
     state_of_matter: StateOfMatter::Solid,
-    sub_category: SubCategory::AlkaliMetal,
+    sub_category: SubCategory::AlkalineEarthMetal,
 };
 
 pub const atom_ac: AtomInfo = AtomInfo {
