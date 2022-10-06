@@ -10,7 +10,6 @@
 //! # Example:
 //!
 //! ```
-//! extern crate natural_constants;
 //! use natural_constants::physics::*;
 //!
 //!

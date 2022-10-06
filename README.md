@@ -33,7 +33,6 @@ Well simple characters are often used ("overloaded") by various constants, so to
 Well no one stops you from doing s.th. like this:
 
 ```rust
-extern crate natural_constants;
 use natural_constants::physics::*;
 
 fn main() {

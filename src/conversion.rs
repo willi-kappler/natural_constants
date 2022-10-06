@@ -1,6 +1,6 @@
 //! Data types and utility function for conversion
 
-use chemistry::absolute_zero;
+use crate::chemistry::absolute_zero;
 
 const scale_factor: f64 = 1000.0;
 

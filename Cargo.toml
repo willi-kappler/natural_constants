@@ -1,6 +1,7 @@
 [package]
 name = "natural_constants"
 version = "0.1.0"
+edition = "2021"
 authors = ["Willi Kappler <grandor@gmx.de>"]
 license = "MIT"
 description = "Pre-defined constants from all disciplines (math, physics, ...)"
