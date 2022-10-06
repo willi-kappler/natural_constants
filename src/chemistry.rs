@@ -59,6 +59,34 @@ pub struct AtomInfo {
     // A lot of more stuff to be added...
 }
 
+impl AtomInfo {
+    #[rustfmt::skip]
+    pub fn iter() -> impl Iterator<Item = &'static AtomInfo> {
+        [
+            &atom_h,  &atom_he, &atom_li, &atom_be, &atom_b,  &atom_c,
+            &atom_n,  &atom_o,  &atom_f,  &atom_ne, &atom_na, &atom_mg,
+            &atom_al, &atom_si, &atom_p,  &atom_s,  &atom_cl, &atom_ar,
+            &atom_k,  &atom_ca, &atom_sc, &atom_ti, &atom_v,  &atom_cr,
+            &atom_mn, &atom_fe, &atom_co, &atom_ni, &atom_cu, &atom_zn,
+            &atom_ga, &atom_ge, &atom_as, &atom_se, &atom_br, &atom_kr,
+            &atom_rb, &atom_sr, &atom_y,  &atom_zr, &atom_nb, &atom_mo,
+            &atom_tc, &atom_ru, &atom_rh, &atom_pd, &atom_ag, &atom_cd,
+            &atom_in, &atom_sn, &atom_sb, &atom_te, &atom_i,  &atom_xe,
+            &atom_cs, &atom_ba, &atom_la, &atom_ce, &atom_pr, &atom_nd,
+            &atom_pm, &atom_sm, &atom_eu, &atom_gd, &atom_tb, &atom_dy,
+            &atom_ho, &atom_er, &atom_tm, &atom_yb, &atom_lu, &atom_hf,
+            &atom_ta, &atom_w,  &atom_re, &atom_os, &atom_ir, &atom_pt,
+            &atom_au, &atom_hg, &atom_tl, &atom_pb, &atom_bi, &atom_po,
+            &atom_at, &atom_rn, &atom_fr, &atom_ra, &atom_ac, &atom_th,
+            &atom_pa, &atom_u,  &atom_np, &atom_pu, &atom_am, &atom_cm,
+            &atom_bk, &atom_cf, &atom_es, &atom_fm, &atom_md, &atom_no,
+            &atom_lr, &atom_rf, &atom_db, &atom_sg, &atom_bh, &atom_hs,
+            &atom_mt, &atom_ds, &atom_rg, &atom_cn, &atom_nh, &atom_fl,
+            &atom_mc, &atom_lv, &atom_ts, &atom_og,
+        ].into_iter()
+    }
+}
+
 pub const atom_h: AtomInfo = AtomInfo {
     name: "H",
     full_name: "Hydrogen",
