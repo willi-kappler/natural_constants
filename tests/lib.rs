@@ -1,5 +1,3 @@
-extern crate natural_constants;
-
 #[test]
 fn test_math() {
     use natural_constants::math::*;
