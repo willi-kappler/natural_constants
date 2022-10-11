@@ -1,6 +1,6 @@
 //! natural_constants: a collection of constants and helper functions
 //!
-//! Written by Willi Kappler, Version 0.1 (2017.02.20)
+//! Written by Willi Kappler, Version 0.2 (2022.10.11)
 //!
 //! Repository: https://github.com/willi-kappler/natural_constants
 //!

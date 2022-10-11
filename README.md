@@ -8,7 +8,7 @@ Pre-defined constants from all disciplines (math, physics, ...) as a Rust librar
 Add this to your Cargo.toml file:
 
 ```
-natural_constants = "0.1.0"
+natural_constants = "0.2.0"
 ```
 
 ## Currently the following modules exist:
